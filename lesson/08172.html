@@ -1,0 +1,103 @@
+<html>
+    <head> <meta http-equiv="content-type" charset="utf-8"></head>
+    <body>
+        <h1>お支払い</h1>
+        <p>決済方法を指定してください。</p>
+        <p>銀行振り込みを選択された場合は、以下項目の入力が必要です。</p>
+        <ul>
+            <li>振り込み名義人名</li>
+        </ul>
+        <p>クレジットカード決済を選択された場合は、以下項目の入力が必要です。</p>
+        <ul>
+            <li>カード番号</li><li>有効期限</li><li>シークレット番号</li>
+        </ul>
+        <table border="1">
+        <thead> 
+           <tr align="left"> 
+             <th>お支払い方法</th>
+             <th><select name = "Payment method">
+                 <option value = "お支払い方法を選択してください">お支払い方法を選択してください</option>
+                  <option value = "銀行振り込み">銀行振り込み</option>
+                  <option value = "クレジットカード決済">クレジットカード決済</option>
+             </th>
+           </tr>
+           <tr align="left">
+               <th>銀行振り込み</th>
+               <th> <label>振込名義人名</label> <input type="text" name="Transfer holder name" size = "40"></th>
+           </tr>
+           <tr align="left">
+               <th>クレジットカード決済</th>
+               <th>
+                   <label>カード番号　　　</label> <input type="text" name="card number" size = "35">
+               
+                  <p>
+                  <label>有効期限　　　　</label> <select name = "What month"> 
+                  <option value = "1月">1月</option>
+                  <option value = "2月">2月</option>
+                  <option value = "3月">3月</option>
+                  <option value = "4月">4月</option>
+                  <option value = "5月">5月</option>
+                  <option value = "6月">6月</option>
+                  <option value = "7月">7月</option>
+                  <option value = "8月">8月</option>
+                  <option value = "9月">9月</option>
+                  <option value = "10月">10月</option>
+                  <option value = "11月">11月</option>
+                  <option value = "12月">12月</option>
+                  </select>
+                  <label>/</label>
+                  
+                  
+                  <select name = "What year">
+                      <option value = "2020年">2020年</option>
+                      <option value = "2019年">2019年</option>
+                      <option value = "2018年">2018年</option>
+                      <option value = "2017年">2017年</option>
+                      <option value = "2016年">2016年</option>
+                      <option value = "2015年">2015年</option> 
+                      <option value = "2014年">2014年</option>
+                      <option value = "2013年">2013年</option>
+                      <option value = "2012年">2012年</option> 
+                      <option value = "2011年">2011年</option> 
+                      <option value = "2010年">2010年</option> 
+                      </select>
+                   
+                  </p>
+                  <p>
+                    <label>シークレット番号</label> <input type="text" name="Secret number" size = "10"></th>  
+                  </p>
+                  
+                  
+               </th>
+           </tr>
+        </thead>
+        </table>
+        <br><br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>生徒番号</th><th>名前</th><th>生年月日</th><th>血液型</th><th>所属</th>
+                </tr>
+                <tr>
+                    <td colspan = "5">Aグループ</td>
+                </tr>
+                <tr>
+                    <td>2019-0001</td><td>井上</td><td>06/01</td><td>A型</td><td rowspan = "2">陸上</td>
+                </tr>
+                <tr>
+                    <td>2019-0002</td><td>上野</td><td>09/15</td><td>O型</td>
+                </tr>
+                <tr>
+                    <td colspan = "5">Bグループ</td>
+                </tr>
+                <tr>
+                    <td>2019-0003</td><td>小川</td><td>11/11</td><td rowspan = "2">B型</td>　<td>バスケ</td>
+                </tr>
+                <tr>
+                    <td>2019-0004</td><td>木村</td><td>04/29</td><td>吹奏楽</td>
+                </tr>
+            </thead>
+        </table>    
+            
+    </body>
+</html>

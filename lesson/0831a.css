@@ -1,0 +1,51 @@
+.a{
+    border-bottom:1px solid;
+    padding-top:10px;
+    padding-left:10px;
+    margin-bottom:20px;
+}
+.b th {
+    width:300px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:7px;
+    color:#ffffff;
+    background-color:#a9a9a9;
+   
+}
+.b td {
+    width:600px;
+    
+}
+.b th,.b td{
+    border:1px #000000 solid;
+}
+.b table {
+    border-collapse:collapse;
+}
+.c {
+    margin-top:10px;
+    color:#ffffff;
+    background:#1e90ff;
+    border:1px #00bfff solid;
+    width:200px;
+    height:35px;
+    font-size:100%;
+}
+input{
+    
+    margin:8px;
+    height:40px;
+    border:1px #00bfff solid;
+    font-size:150%;
+}
+
+.d{
+    width:97%;
+}
+.e{
+    width:171px;
+}
+.f{
+    width:45%;
+}

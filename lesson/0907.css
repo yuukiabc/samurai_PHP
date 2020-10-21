@@ -1,0 +1,23 @@
+.a{
+    background-color:#3cb371;
+    height:100px;
+    width:50%;
+    float:left;
+    
+}
+
+.b{
+    background-color:red;
+    height:100px;
+    width:25%;
+    float:left;
+}
+.c{
+    background-color:yellow;
+    height:300px;
+    width:100%;
+    
+}
+.d{
+    overflow:hidden;
+}

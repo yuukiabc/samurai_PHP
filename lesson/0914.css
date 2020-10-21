@@ -1,0 +1,31 @@
+h1{
+    font-size:25px;
+}
+h2{
+    font-size:18px;
+}
+.box {
+    width: 900px;
+    border:1px #000000 solid;
+}
+thead th{
+    font-size:15px;
+}
+tbody{
+    font-size:18px;
+}
+table{
+    width:800px;
+    margin-right:50px;
+    margin-left:50px;
+    border:1px #000000 solid;
+    border-collapse: collapse;
+}
+th,td{
+    padding-top:15px;
+    padding-bottom:15px;
+    border:1px #000000 solid;
+}
+td{
+    padding-left:30px;
+}
