@@ -1,12 +1,12 @@
 span{
-    color:#ee7800;
+    color: #ee7800;
 }
 a {
 text-decoration: none;
 }
 .f{
     border-bottom: 1px solid #2b2b2b;
-    height:150px;
+    height: 150px;
 }
 .f a {
   margin-left: 10%;
@@ -15,7 +15,7 @@ text-decoration: none;
   color: #4169e1;
 }
 .e{
-    margin-left:80%;
+    margin-left: 80%;
 }
 .d{
     align-content: center;
@@ -27,27 +27,27 @@ text-decoration: none;
    
 }
 .d ul{
-    list-style-type:none;
-    padding:0;
-    margin:0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }    
 .d ul li{
     float: left;
-    text-align:center;
-    width:20%;
+    text-align: center;
+    width: 20%;
 }
 .d ul li a{
     
-    display:block;
-    height:20px;
-    padding:10px;
+    display: block;
+    height: 20px;
+    padding: 10px;
     text-decoration: none;
-    color:#a9a9a9;
-    font-size:20px;
-    margin:0;
+    color: #a9a9a9;
+    font-size: 20px;
+    margin: 0;
 }
 .d ul li a:hover{
-    filter:drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(10px 10px 10px black);
 }
 .menu{
     border-top: 1px solid #2b2b2b;
@@ -58,59 +58,59 @@ text-decoration: none;
     
 }
 .a{
-    height:100%;
-    width:15%;
-    float:left;
-    padding-left:10px;
+    height: 100%;
+    width: 15%;
+    float: left;
+    padding-left: 10px;
     box-sizing: border-box;
 }
 .a img{
-    height:200px;
-    width:200px;
+    height: 200px;
+    width: 200px;
 }
 .g{
     border-top: 1px solid #a9a9a9;
     border-bottom: 1px solid #a9a9a9;
-    text-align:center;
+    text-align: center;
 }
 .g p{
-    margin:0;
+    margin: 0;
 }
 .c{
-    height:100%;
-    width:55%;
-    float:left;
+    height: 100%;
+    width: 55%;
+    float: left;
     
-    padding-left:15%;
-    font-size:20px;
+    padding-left: 15%;
+    font-size: 20px;
 }
 .c form textarea{
-    width:70%;
+    width: 70%;
 }
 .c form{
-    padding-top:10%;
+    padding-top: 10%;
 }
 .i{
-    padding-top:10px;
+    padding-top: 10px;
 }
 .j{
-    background-image:url("11.jpg");
-    background-size:cover;
-    background-position:60% 30%;
-    margin-left:auto;
-    margin-right:auto;
-    height:130px;
-    width:70%;
+    background-image: url("11.jpg");
+    background-size: cover;
+    background-position: 60% 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    width: 70%;
 }
 .j h2{
-    color:white;
-    padding-left:10px;
-    padding-top:1%;
+    color: white;
+    padding-left: 10px;
+    padding-top: 1%;
 }
 
 .k{
-    padding-left:15%;
-    padding-right:15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .kakomi-box8{
     padding: 0.5em 1em;

@@ -1,6 +1,6 @@
 .f{
     border-bottom: 1px solid #2b2b2b;
-    height:90px;
+    height: 90px;
 }
 .f a{
   margin-left: 10%;
@@ -15,39 +15,43 @@
     overflow: hidden;
 }
 .a{
-    height:100%;
-    width:15%;
-    float:left;
-    margin-top:30px;
-    padding-left:10px;
+    height: 100%;
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 10px;
     box-sizing: border-box;
 }
 .a img{
-    height:200px;
-    width:200px;
+    height: 200px;
+    width: 200px;
 }
 .g{
     border-top: 1px solid #a9a9a9;
     border-bottom: 1px solid #a9a9a9;
-    text-align:center;
+    text-align: center;
 }
 .g p{
-    margin:0;
+    margin: 0;
 }
 .c{
-    height:100%;
-    width:55%;
-    float:left;
-    margin-top:30px;
-    padding-left:15%;
+    height: 100%;
+    width: 55%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 15%;
 }
 th,td{
-    border:1px #000000 solid;
-    border-color:#a9a9a9;
+    border: 1px #000000 solid;
+    border-color: #a9a9a9;
 }
 .community{
-    display:inline-block;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
+}
+.community a{
+    text-decoration: none;
+    color: #4169e1;
 }
 .btn{
     display: block;
@@ -58,10 +62,10 @@ th,td{
 	text-decoration: none;
 	color: #fff;
 	background: #f56500;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 }
 .btn hover{
-    opacity:0.8;
+    opacity: 0.8;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -77,15 +81,15 @@ th,td{
 	
 }
 .btn2 hover{
-    opacity:0.8;
+    opacity: 0.8;
 	cursor: pointer;
 	text-decoration: none;
 }
 table{
-    border-collapse:collapse;
+    border-collapse: collapse;
 }
 .c p{
-    border-bottom:1px #000000 solid;
+    border-bottom: 1px #000000 solid;
 }
 
 
